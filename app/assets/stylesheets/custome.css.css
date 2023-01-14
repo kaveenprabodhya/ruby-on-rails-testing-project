@@ -1,0 +1,12 @@
+.alert {
+  margin: 20px;
+}
+
+.alert:hover {
+  color: darkblue;
+}
+
+ul li {
+  list-style: none;
+}
+/*# sourceMappingURL=custome.css.css.map */

@@ -1,0 +1,4 @@
+Importmap for Rails is automatically included in Rails 7+ for new applications,
+=> rails importmap:install
+Turbo gem is automatically configured for applications made with Rails 7+
+=> rails turbo:install

@@ -1,0 +1,10 @@
+.alert {
+    margin:20px;
+    &:hover {
+        color:darkblue;
+    }
+}
+
+ul li {
+    list-style: none;
+}

@@ -1,0 +1,8 @@
+<%= form_with model: category do |f| %>
+  <%= f.label :name, "Category" %> <br>
+  <%= f.text_field :name %> <br>
+  <% category.errors.full_messages_for(:name).each do |message| %>
+    <div><%= message %></div>
+  <% end %> <br>
+  <%= f.submit "Submit", disable_with: 'Submiting...' %>
+<% end %>
